@@ -1,6 +1,5 @@
 #include "nrf.h"
 #include "nrf_gpio.h"
-#include "system_nrf52.h"
 #include "nrf_delay.h"
 
 int main(void)
