@@ -6,7 +6,7 @@
 int main(void)
 {			
     nrf_gpio_cfg_output(23);
-    for(;;){	
+    while (1){	
         nrf_gpio_pin_clear(23);
         nrf_delay_ms(1000);
         nrf_gpio_pin_set(23);
