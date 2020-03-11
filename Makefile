@@ -1,3 +1,7 @@
+# This file was taken from the examples from the SDK examples I am assuming I
+# am allowed to share this file because these makefiles don't have the 
+# copyright notice the rest of the code in that SDK has
+
 PROJECT_NAME     := blinky_pca10040
 TARGETS          := nrf52832_xxaa
 OUTPUT_DIRECTORY := _build
